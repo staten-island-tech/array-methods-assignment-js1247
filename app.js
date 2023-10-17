@@ -31,7 +31,7 @@ const Athletes = [
     firstName: "Johnny",
     country: "Africa",
     age: "25",
-    sport: "soccer",
+    sport: "Soccer",
     gender: "Male",
   },
 ];
@@ -43,6 +43,6 @@ Athletes.forEach((athletes) => {
   console.log(athletes.gender);
 });
 function genderFiltering() {
-  return Athletes.filter((number) => number.gender == "Male");
+  return Athletes.filter((number) => number.gender === "Male");
 }
 console.log(genderFiltering());
