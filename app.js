@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const Athletes = [
   {
     firstName: "Ryan",
@@ -47,35 +46,3 @@ function genderFiltering() {
   return Athletes.filter((number) => number.gender == "Male");
 }
 console.log(genderFiltering());
-=======
-const name = [
-
-    {
-       firstName:"",
-       lastName: "",
-       phoneNumber:""
-   },
-   
-   {
-       firstName:"",
-       lastName: "",
-       phoneNumber: ""
-   },
-
-   {
-       firstName:"",
-       lastName:"",
-       phoneNumber:""
-   },
-   
-   {
-       firstName:"",
-       lastName: "",
-       phoneNumber: ""
-   }
-<<<<<<< Updated upstream
-   ];
-=======
-   ];
->>>>>>> f610e0ab1cb6f58919eb3b4257eda2862284c8c9
->>>>>>> Stashed changes
