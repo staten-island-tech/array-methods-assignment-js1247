@@ -42,6 +42,8 @@ Athletes.forEach((athletes) => {
   console.log(athletes.sport);
   console.log(athletes.gender);
 });
+Athletes.forEach((athletes) => {});
+
 function genderFiltering() {
   return Athletes.filter((number) => number.gender === "Male");
 }
