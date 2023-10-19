@@ -43,8 +43,7 @@ Athletes.forEach((athletes) => {
   console.log(athletes.gender);
 });
 Athletes.forEach((athletes) => {
-  athletes.sports.forEach((sports) =>
-  console.log(sports))
+  athletes.sports.forEach((sports) => console.log(sports));
 });
 
 function genderFiltering() {
