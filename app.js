@@ -3,35 +3,35 @@ const Athletes = [
     firstName: "Ryan",
     country: "Mexico",
     age: "26",
-    sport: "Basketball",
+    sports: ["Basketball, Ping Pong"],
     gender: "Male",
   },
   {
     firstName: "Evan",
     country: "Japan",
     age: "29",
-    sport: "Badminton",
+    sports: ["Badminton, Tennis"],
     gender: "Male",
   },
   {
     firstName: "Sophia",
     country: "England",
     age: "24",
-    sport: "Volleyball",
+    sports: ["Volleyball, Swimming"],
     gender: "Female",
   },
   {
     firstName: "Yifan",
     country: "China",
     age: "30",
-    sport: "Track",
+    sports: ["Track, Bowling"],
     gender: "Female",
   },
   {
     firstName: "Johnny",
     country: "Africa",
     age: "25",
-    sport: "Soccer",
+    sports: ["Soccer, Hockey"],
     gender: "Male",
   },
 ];
@@ -39,10 +39,13 @@ Athletes.forEach((athletes) => {
   console.log(athletes.firstName);
   console.log(athletes.country);
   console.log(athletes.age);
-  console.log(athletes.sport);
+  console.log(athletes.sports);
   console.log(athletes.gender);
 });
-Athletes.forEach((athletes) => {});
+Athletes.forEach((athletes) => {
+  athletes.sports.forEach((sports) =>
+  console.log(sports))
+});
 
 function genderFiltering() {
   return Athletes.filter((number) => number.gender === "Male");
